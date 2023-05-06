@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './app.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <header className="appleHeader"></header> */}
+      <nav className='navBarApple'>
+        <a className='navBarText'>Store</a>
+        <a className='navBarText'>Mac</a>
+        <a className='navBarText'>iPad</a>
+        <a className='navBarText'>iPhone</a>
+        <a className='navBarText'>Watch</a>
+        <a className='navBarText'>AirPods</a>
+        <a className='navBarText'>TV & Home</a>
+        <a className='navBarText'>Entertainment</a>
+        <a className='navBarText'>Accessories</a>
+        <a className='navBarText'>Support</a>
+      </nav>
     </div>
   );
 }
