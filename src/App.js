@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       {/* <header className="appleHeader"></header> */}
       <nav className='navBarApple'>
-        <a className='navBarText'>
-          <img src='../images/appleicon.png' alt='Apple Icon'/>
-        </a>
+        {/* <NavLink to={"/newsFeed"}> */}
+          <img src='appleicon.png' alt='Apple Icon'/>
+        {/* </NavLink> */}
         <a className='navBarText'>Store</a>
         <a className='navBarText'>Mac</a>
         <a className='navBarText'>iPad</a>
@@ -19,16 +19,30 @@ function App() {
         <a className='navBarText'>Entertainment</a>
         <a className='navBarText'>Accessories</a>
         <a className='navBarText'>Support</a>
+        <a className='navBarText'>search</a>
+        <a className='navBarText'>cart</a>
       </nav>
     </div>
+    <div className='iPhoneInfo'>
+      Get $200–$630 in credit toward iPhone 14 or iPhone 14 Pro when you trade in iPhone 11 or higher.1
+      <a className='linksLearn' href='/shop'>
+       Shop iPhone >
+      </a>
+    </div>
+    <div className='imageText'>
+          <h1>
+            iPhone 14 Pro
+          </h1>
+          <p className='imagePrint'>
+            Pro. Beyond.
+          </p>
+          <div className='linksImage'>
+            <a href='/learn_more' className='linksLearn'>Learn More ></a>
+
+            <a href='/learn_more' className='linksLearn'>Buy ></a>
+          </div>
+        </div>
       <div className='sectionBackground'>
-        {/* <img src='../images/iphoneBackground.png'/> */}
-        <h1 className='imageText'>
-          iPhone 14 Pro
-        </h1>
-        <h3>
-          Pro. Beyond.
-        </h3>
       </div>
     </>
   );
