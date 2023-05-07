@@ -1,27 +1,42 @@
 body{
-    margin: 0;
-    padding: 0;
-    
+    background-color: black;
 }
 
 .navBarApple{
-    background: rgba(22, 22, 23, .8);
+    background: rgba(77, 77, 80, 0.8);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10px;
+    padding: 0 16px;
+    margin: -10px;
     height: 45px;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
 
 .navBarText{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: rgba(251, 251, 253, .8);
     font-size: 12px;
     font-weight: 400;
-    letter-spacing: -.01em;
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 1;
+    width: 100%;
+}
+
+.sectionBackground{
+    background-image: url(../images/iphoneBackground.png);
+    background-repeat: no-repeat;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border: 3px solid black;
+    height: 500px;
+    border-radius: 12px;
+    margin-left: 115px;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
