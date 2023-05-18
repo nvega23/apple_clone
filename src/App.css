@@ -3,7 +3,7 @@ body{
 }
 
 .navBarApple{
-    background: rgba(0, 0, 0, 0.612);
+    background: rgba(0, 0, 0, 0.722);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,6 +14,8 @@ body{
     width: 100%; /* Adjusted to 100% instead of 102% */
     font-size: 8px;
     position: fixed;
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+    -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
 }
 
 .navBarText{
@@ -27,11 +29,12 @@ body{
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 1;
     width: auto;
+    cursor: pointer;
 }
 
 .sectionBackground{
     background-image: url(../images/multiphonepic.jpeg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     /* transform: scaleX(-1); */
     height: 500px;
     color: white;
@@ -40,7 +43,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 105%;
-    margin-left: -1%;
+    margin-left: 40%;
 }
 
 .imageText{
@@ -88,4 +91,18 @@ body{
     width: 400px;
     font-size: 18px;
     font-weight: 400;
+}
+
+.iphone_14_image{
+    background-image: url(../images/iphone_14.png);
+    background-repeat: no-repeat;
+    /* transform: scaleX(-1); */
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
 }

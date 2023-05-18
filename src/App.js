@@ -7,8 +7,9 @@ function App() {
       {/* <header className="appleHeader"></header> */}
       <nav className='navBarApple'>
         {/* <NavLink to={"/newsFeed"}> */}
-          <img src='appleicon.png' alt='Apple Icon'/>
+          {/* <img src='appleicon.png' alt='Apple Icon'/> */}
         {/* </NavLink> */}
+        <a className='navBarText'>Apple</a>
         <a className='navBarText'>Store</a>
         <a className='navBarText'>Mac</a>
         <a className='navBarText'>iPad</a>
@@ -41,9 +42,14 @@ function App() {
 
             <a href='/learn_more' className='linksLearn'>Buy ></a>
           </div>
-        </div>
-      <div className='sectionBackground'>
+          <div className='sectionBackground'>
+          </div>
+    </div>
+    <div>
+      <div className='iphone_14_image'>
+
       </div>
+    </div>
     </>
   );
 }
