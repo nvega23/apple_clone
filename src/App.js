@@ -45,10 +45,34 @@ function App() {
           <div className='sectionBackground'>
           </div>
     </div>
-    <div>
-      <div className='iphone_14_image'>
+    <div className='imageText2'>
+        <h1>
+          iPhone 14
+        </h1>
+        <p className='imagePrint2'>
+          Wonderfull.
+        </p>
+        <div className='linksImage'>
+          <a href='/learn_more' className='linksLearn'>Learn More ></a>
 
-      </div>
+          <a href='/learn_more' className='linksLearn'>Buy ></a>
+        </div>
+        <div className='iphone_14_image'>
+        </div>
+    </div>
+    <div className='imageText3'>
+        <div className='imageTextWatch'>
+          <h1 className='name'>WATCH</h1>
+          <p className='series'>SERIES 8</p>
+          <p className='imagePrint3'>A healthy leap ahead.</p>
+        </div>
+        <div className='linksImage'>
+          <a href='/learn_more' className='linksLearn'>Learn More ></a>
+
+          <a href='/learn_more' className='linksLearn'>Buy ></a>
+        </div>
+        <div className='watch8'>
+        </div>
     </div>
     </>
   );

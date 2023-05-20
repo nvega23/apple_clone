@@ -5,10 +5,10 @@ body{
 .navBarApple{
     background: rgba(0, 0, 0, 0.722);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: justify;
-    margin: -10px;
+    margin: 0 -10px;
     margin-top: -40px;
     height: 45px;
     width: 100%; /* Adjusted to 100% instead of 102% */
@@ -104,4 +104,78 @@ body{
     flex-direction: column;
     width: 100%;
     margin-left: 10%;
+}
+
+.imageText2{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    background-color: transparent;
+    width: 105%;
+    margin-left: -1%;
+}
+
+.imagePrint2{
+    margin-top: -35px;
+    font-weight: 300;
+}
+.imageText3{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    background-color: black;
+    width: 105%;
+    margin-left: -1%;
+}
+
+.imagePrint3{
+    margin-top: -10px;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+}
+
+.watch8{
+    background-image: url(../images/apple_watch.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+}
+
+.series{
+    display: flex;
+    justify-content: center;
+    color: rgb(196, 2, 2);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: -40px;
+    font-size: 19px;
+    text-decoration: bold;
+}
+
+.imageTextWatch{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
