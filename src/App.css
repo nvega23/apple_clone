@@ -96,7 +96,6 @@ body{
 .iphone_14_image{
     background-image: url(../images/iphone_14.png);
     background-repeat: no-repeat;
-    /* transform: scaleX(-1); */
     height: 500px;
     color: white;
     display: flex;
