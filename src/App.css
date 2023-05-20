@@ -179,3 +179,100 @@ body{
     flex-direction: column;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+
+.sectionImages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 10px; /* Add spacing between grid items */
+}
+
+.sectionImages > div {
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tradeIn {
+    background-image: url(../images/trade2.jpeg);
+    margin-top: 50px;
+}
+
+.tradeInText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -65%;
+}
+
+.tradeInH1{
+    color: black;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.textUnderH1{
+    color: black;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -35px;
+}
+
+.linksLearn2{
+    text-decoration: none;
+    color: #2997ff;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 300;
+    margin-right: 30px;
+}
+
+.conference {
+    background-image: url(../images/conference2.png);
+}
+
+.ipad {
+    background-image: url(../images/ipad2.jpg);
+    margin-top: 50px;
+}
+
+.ipadText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -80%;
+}
+
+
+.linksImage2{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.macbookpro {
+    background-image: url(../images/macbookpro.jpeg);
+}
+
+.homePod {
+    background-image: url(../images/homepod.png);
+}
+
+.card {
+    background-image: url(../images/apple_card.png);
+}

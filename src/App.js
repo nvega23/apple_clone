@@ -74,6 +74,36 @@ function App() {
         <div className='watch8'>
         </div>
     </div>
+    <section className='sectionImages'>
+      <div className='tradeIn'>
+        <div className='tradeInText'>
+          <h1 className='tradeInH1'>Trade In</h1>
+          <h3 className='textUnderH1'>Upgrade and save. It's that easy.</h3>
+          <div className='linksImage'>
+            <a href='/shop/trade-in'  className='linksLearn2' >See what your device is worth ></a>
+          </div>
+        </div>
+      </div>
+      <div className='conference'>
+      </div>
+      <div className='ipad'>
+      <div className='ipadText'>
+          <h1 className='tradeInH1'>iPad</h1>
+          <h3 className='textUnderH1'>Lovable. Drawable. Magical</h3>
+          <div className='linksImage2'>
+          <a href='/learn_more' className='linksLearn2'>Learn More ></a>
+
+          <a href='/learn_more' className='linksLearn2'>Buy ></a>
+        </div>
+        </div>
+      </div>
+      <div className='macbookpro'>
+      </div>
+      <div className='homePod'>
+      </div>
+      <div className='card'>
+      </div>
+    </section>
     </>
   );
 }
