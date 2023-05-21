@@ -253,7 +253,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -80%;
+    margin-top: -40%;
 }
 
 
@@ -268,6 +268,29 @@ body{
 .macbookpro {
     background-image: url(../images/macbookpro.jpeg);
 }
+
+.macbookh1{
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -125px;
+}
+
+.macbookproText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linksImagemacbook{
+    text-decoration: none;
+    color: #2997ff;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 300;
+}
+
 
 .homePod {
     background-image: url(../images/homepod.png);

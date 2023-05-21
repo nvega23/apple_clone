@@ -98,6 +98,13 @@ function App() {
         </div>
       </div>
       <div className='macbookpro'>
+      <div className='macbookproText'>
+        <h1 className='macbookh1'>Supercharged by M2 Pro and M2 Max.</h1>
+          <div className='linksImagemacbook'>
+          <a href='/learn_more' className='linksLearn2'>Learn More ></a>
+          <a href='/learn_more' className='linksLearn2'>Buy ></a>
+        </div>
+        </div>
       </div>
       <div className='homePod'>
       </div>
